@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<title>How to Join</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+</head>
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+	background-color: #000000;
+}
+</style>
+<body>
+
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s2">
+      <a href="home.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT US</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#" class="w3-button w3-block w3-black">HOW TO JOIN</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="ttc_officers.html" class="w3-button w3-block w3-black">OFFICERS</a>
+    </div>
+	<div class="w3-col s2">
+      <a href="faq.html" class="w3-button w3-block w3-black">FAQ</a>
+    </div>
+	<div class="w3-col s2">
+      <a href="contact.html" class="w3-button w3-block w3-black">CONTACT US</a>
+    </div>
+  </div>
+</div>
+
+<div class="w3-sand w3-grayscale w3-large">
+
+<div class="w3-container" id="join">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-64_8"><span class="w3-tag w3-wide">3 STEPS TO BECOME A MEMBER OF TTC</span></h5>
+  
+	<img src="images/join_picture.jpg" style="width:100%;max-width:1000px;padding-bottom:16px;" class="w3-margin-top">
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openSteps(event, 'Waivers');" id="myLink">
+        <div class="w3-col s4 tablink">Sign Waivers</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openSteps(event, 'Dues');">
+        <div class="w3-col s4 tablink">Pay Dues</div>
+      </a>
+	  <a href="javascript:void(0)" onclick="openSteps(event, 'LISTSERV');">
+        <div class="w3-col s4 tablink">Join the LISTSERV</div>
+      </a>
+    </div>
+
+    <div id="Waivers" class="w3-container steps w3-padding-48 w3-card">
+      <h5>What are waivers?</h5>
+      <p class="w3-text-grey">Waivers are our binding legal agreement between members and the club. They're basically there so you don't sue us.<br><br> 
+	  
+	  </p>
+	<h5>Do I have to sign one?</h5>
+      <p class="w3-text-grey">Yes, everyone is required to sign a waiver before they're offically a member and can particpate on TTC trips.<br><br> 
+	  </p>
+    <h5>Where can I sign a waiver?</h5>
+      <p class="w3-text-grey">If you need to sign a waiver please see our secretary or treasurer at the Monday Night Meetings.</p>
+	</div>
+
+    <div id="Dues" class="w3-container steps w3-padding-48 w3-card">
+      <h5>Why does TTC require dues?</h5>
+      <p class="w3-text-grey">Dues are contributed to buying new gear and maintaining current gear which are available to all TTC members in our off campus storage facility.<br><br> 
+		</p> 
+		<h5>Is it required?</h5>
+      <p class="w3-text-grey">Yes, all members must pay dues in order to go on TTC trips(excluding Trail Maintenace Trips)<br><br>  
+		<h5>How much is it and where do I pay?</h5>
+		<p class="w3-text-grey">Dues are 10$ and can be paid with either cash or by Venmo.<br>
+		Cash: See the treasurer at the Monday Night Meetings<br>
+		Venmo: Venmo us at UMDTTC and put down your name. Afterwards be sure to either email us at officers@terrapintrailclub.org or tell one of the officers.</p> 
+  </div>
+  
+  <div id="LISTSERV" class="w3-container steps w3-padding-48 w3-card">
+      <h5>What is the LISTSERV?</h5>
+      <p class="w3-text-grey">This is our main form of communication outside of Monday Night Meetings. The main function is to inform members of upcoming trips and signing up for trips.</p><br>
+	  <h5>How do I sign up?</h5>
+	  <p class="w3-text-grey">Sign up by emailing announce@terrapintrailclub.org. Afterwards you will be responded with a automated email that will prompt you to register and sign up on our LISTSERV.</p><br>
+	  <h5>Do I have to sign up?</h5>
+	  <p class="w3-text-grey">Technically no, but this is the only way of signing up for trips so it's pretty much necessary</p>
+  </div>
+</div>
+
+</div>
+
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Developed by William Guo</p>
+</footer>
+
+<script>
+function openSteps(evt, stepName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("steps");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(stepName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
