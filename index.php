@@ -1,3 +1,5 @@
+<!--This is the landing page which displays a slideshow of pictures-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,6 +20,7 @@ body, html {
 </style>
 <body>
 
+<!--This is the navigation bar at the very top-->
 <div class="w3-top">
   <div class="w3-row w3-padding w3-black">
     <div class="w3-col s2">
@@ -41,8 +44,10 @@ body, html {
   </div>
 </div>
 
-
+<!--Sets the format for the rest of the page-->
 <div class="w3-display-container">
+
+<!--This displays all of the pictures-->
 <div class="slides w3-animate-right">
   <img src="images/first.jpg" style="width:100%;">
 </div>
@@ -74,46 +79,54 @@ body, html {
 <div class="w3-display-middle w3-center">
     <span class="w3-text-white" style="font-size:5vw">Terrapin<br>Trail Club</span>
   </div>
+  
+<!--This will run the script to initiate button functionality-->
 <button class="w3-button w3-black w3-display-left" onclick="prevSlide()">&#10094;</button>
   <button class="w3-button w3-black w3-display-right" onclick="nextSlide()">&#10095;</button>
 </div>
 
 
-
+<!--This is the script used to run the slideshow-->
 <script>
 var i = 1;
 var timer = null;
 slides(i);
 
+<!--This will go to the next slide-->
 function nextSlide()
 {
-	clearTimeout(timer)
+	clearTimeout(timer)<!--This will clear the current timer-->
 	slides(++i)
 }
 
+<!--This will go to the previous slide-->
 function prevSlide()
 {
-	clearTimeout(timer)
+	clearTimeout(timer)<!--This will clear the current timer-->
 	slides(--i)
 }
 
+<!--This will translate over n amount of slides-->
 function slides(n) {
   var slideShow = document.getElementsByClassName("slides");
   
   var x = 0;
-  while (x < slideShow.length)
+  while (x < slideShow.length)<!--Set all slides to none-->
   	slideShow[x++].style.display = "none";
   
-    
+  <!--If n is greater than the length of the slides set n to 1 or if n is less-->
+  <!--than 1, then set n to the length - 1. Or if it is not either one return n-->
   i= n > slideShow.length ? 1 : (n < 1) ? slideShow.length:i
   slideShow[i-1].style.display = "block";
-  timer = setTimeout(nextSlide,8500)  
+  
+  <!--Set a timer for 8.5 seconds to automatically transition to the next one-->
+  timer = setTimeout(nextSlide,8500)
 }
 </script>
 
 </div>
 
-
+<!--This is the footer for the webpage-->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
   <p>Developed by William Guo</p>
 </footer>
