@@ -76,6 +76,12 @@ body, html {
 <div class="slides w3-animate-right">
   <img src="images/tenth.jpg" style="width:100%;">
 </div>
+<div class="slides w3-animate-right">
+  <img src="images/eleventh.jpg" style="width:100%;">
+</div>
+<div class="slides w3-animate-right">
+  <img src="images/twelth.jpg" style="width:100%;">
+</div>
 
 <div class="w3-display-middle w3-center">
     <span class="w3-text-white" style="font-size:5vw">Terrapin<br>Trail Club</span>
@@ -122,8 +128,8 @@ function slides(n) {
   i= n > slideShow.length ? 1 : (n < 1) ? slideShow.length:i
   slideShow[i-1].style.display = "block";
   
-  <!--Set a timer for 8.5 seconds to automatically transition to the next one-->
-  timer = setTimeout(nextSlide,8500)
+  <!--Set a timer for 10 seconds to automatically transition to the next one-->
+  timer = setTimeout(nextSlide,10000)
 }
 </script>
 
@@ -131,7 +137,7 @@ function slides(n) {
 
 <!--This is the footer for the webpage-->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Developed by William Guo</p>
+  <!--<p>Developed by William Guo</p>-->
 </footer>
 
 </body>
