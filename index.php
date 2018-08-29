@@ -85,7 +85,7 @@ body, html {
 
 <div class="w3-display-middle w3-center">
     <span class="w3-text-white" style="font-size:5vw">Terrapin<br>Trail Club<br></span>
-	<span class="w3-text-red" style="font-size:3vw">First Meeting: September 10th at 7pm in Armory 0131</span>
+	<span class="w3-text-red" style="font-size:3vw">First Meeting: September 10th at 7pm in Susquehanna 1117<br>THE ROOM IS DIFFERENT FROM LAST SEMESTER</span>
   </div>
   
  
