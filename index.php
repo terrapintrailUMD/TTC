@@ -41,6 +41,9 @@ body, html {
 	<div class="w3-col s2">
       <a href="contact.html" class="w3-button w3-block w3-black">CONTACT US</a>
     </div>
+    <div class="w3-col s2">
+      <a href="calendar.html" class="w3-button w3-block w3-black">EVENT CALENDAR</a>
+    </div>
   </div>
 </div>
 
