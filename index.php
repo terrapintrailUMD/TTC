@@ -24,7 +24,7 @@ body, html {
 <div class="w3-top">
   <div class="w3-row w3-padding w3-black">
     <div class="w3-col" style="width:14.28%">
-      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+      <a href="index.php" class="w3-button w3-block w3-black">HOME</a>
     </div>
     <div class="w3-col" style="width:14.28%">
       <a href="about.html" class="w3-button w3-block w3-black">ABOUT US</a>
