@@ -23,25 +23,25 @@ body, html {
 <!--This is the navigation bar at the very top-->
 <div class="w3-top">
   <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s2">
+    <div class="w3-col s1">
       <a href="#" class="w3-button w3-block w3-black">HOME</a>
     </div>
-    <div class="w3-col s2">
+    <div class="w3-col s1">
       <a href="about.html" class="w3-button w3-block w3-black">ABOUT US</a>
     </div>
-    <div class="w3-col s2">
+    <div class="w3-col s1">
       <a href="join.html" class="w3-button w3-block w3-black">HOW TO JOIN</a>
     </div>
-    <div class="w3-col s2">
+    <div class="w3-col s1">
       <a href="ttc_officers.html" class="w3-button w3-block w3-black">OFFICERS</a>
     </div>
-	<div class="w3-col s2">
+	<div class="w3-col s1">
       <a href="faq.html" class="w3-button w3-block w3-black">FAQ</a>
     </div>
-	<div class="w3-col s2">
+	<div class="w3-col s1">
       <a href="contact.html" class="w3-button w3-block w3-black">CONTACT US</a>
     </div>
-    <div class="w3-col s2">
+    <div class="w3-col s1">
       <a href="calendar.html" class="w3-button w3-block w3-black">EVENT CALENDAR</a>
     </div>
   </div>
