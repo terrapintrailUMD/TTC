@@ -11,11 +11,28 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 </head>
 <style>
-body, html {
-    height: 100%;
-    font-family: "Inconsolata", sans-serif;
-	background-color: #000000;
-}
+	body, html {
+	    height: 100%;
+	    font-family: "Inconsolata", sans-serif;
+		background-color: #000000;
+	}
+
+	.row {
+	  display: flex;
+	  flex-wrap: wrap;
+	  padding: 0 4px;
+	}
+
+	/* Create two equal columns that sits next to each other */
+	.column {
+	  flex: 50%;
+	  padding: 0 4px;
+	}
+
+	.column img {
+	  margin-top: 8px;
+	  vertical-align: middle;
+	}
 </style>
 <body>
 
@@ -54,7 +71,62 @@ body, html {
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64_8"><span class="w3-tag w3-wide">OFFICERS</span></h5>
-	<img src="images/Picture1.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <div class="row">
+    	<div class="column">
+    		
+    		<img src="images/president.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">James Newman</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">President</span></h6>
+    		
+    		<img src="images/secretary.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">John Merlo-Coyne</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Secretary</span></h6>
+    		
+    		<img src="images/safetycomp.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Robert Wilson</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Safety & Compliance Officer</span></h6>
+    		
+    		<img src="images/treasurer_1.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Nathan Stiff</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Treasurer</span></h6>
+    		
+    		<img src="images/trailmaint_1.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Joseph Westra</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Trail Maintenance Officer</span></h6>
+    		
+    		<img src="images/gear_1.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Kristian Moller</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Gear Manager</span></h6>
+
+    	</div>
+    	<div class="column">
+
+    		<img src="images/vp.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Sage Levy</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Vice President</span></h6>
+
+    		<img src="images/outreach.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Lily Li</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Director of Outreach</span></h6>
+
+    		<img src="images/itc.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Andrew Sumner</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Intro Trip Coordinator</span></h6>
+
+    		<img src="images/treasurer_2.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+			<h6 class="w3-center"><span class="w3-tag w3-wide">Coedee Mowers</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Treasurer</span></h6>
+
+    		<img src="images/trailmaint_2.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Joe Koenig</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Trail Maintenance Officer</span></h6>
+
+    		<img src="images/gear_2.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Barrak Gay</span></h6>
+    		<h6 class="w3-center"><span class="w3-tag w3-wide">Gear Manager</span></h6>
+
+    	</div>
+    </div>
   </div>
 </div>
 <br><br><br>
