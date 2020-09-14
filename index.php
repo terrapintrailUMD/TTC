@@ -88,7 +88,7 @@ body, html {
 
 <div class="w3-display-middle w3-center">
     <span class="w3-text-white" style="font-size:5vw">Terrapin<br>Trail Club<br></span>
-	<span class="w3-text-red" style="font-size:3vw">Meeting: Every Monday at 7:10pm in School of Public Health 0302</span>
+	<span class="w3-text-red" style="font-size:3vw">Meeting: Every Monday at 7:10pm on Zoom, See the Calendar for the Link</span>
   </div>
   
  
